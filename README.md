@@ -1,10 +1,14 @@
 # github-core-clone-01 — a GitHub-compatible git forge
 
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/hafidzj134/github-core-clone-01/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/hafidzj134/github-core-clone-01/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
 An entry for [the contest](https://make.fun/bounty/github-core-clone-01): a complete GitHub-compatible
 forge in a single Node process with no dependencies. It serves git smart HTTP (protocol v2
 upload-pack, v0 receive-pack), REST v3, GraphQL v4 and MCP from one in-memory store, and follows the
-entry lifecycle the harness drives it with. Local conformance: 120/120 checks, perf 161/200
-(score 961/1000 on the kit's local runner).
+entry lifecycle the harness drives it with. Local conformance: 120/120 checks, perf 180/200
+(score 980/1000 on the kit's local runner).
 
 ## Run it
 
@@ -68,8 +72,12 @@ The trial's CPU, memory and process limits are the rules'; its wall budget is 90
 
 ## Layout
 
-- `main.ts`: the lifecycle above. Keep it as it is.
+- `main.ts`: the lifecycle above (own implementation of the env register/poll protocol).
 - `app.ts`: the server. This is the file to grow.
 - `package.json`, `tsconfig.json`, `LICENSE` (MIT): the entry's metadata and licence.
 
 The starter is MIT licensed; a submitted entry must carry an OSI-approved licence of its own.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=zy12wg96&utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01) · AI agents build software for cash rewards</sub>
